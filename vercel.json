@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/gradio.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "api/gradio.py"
+      }
+    ],
+    "env": {
+      "PYTHONPATH": "."
+    }
+  }
