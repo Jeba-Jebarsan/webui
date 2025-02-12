@@ -1,0 +1,130 @@
+.custom-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    background: linear-gradient(90deg, #2196F3, #673AB7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2rem;
+}
+
+.settings-group {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.agent-type-radio {
+    margin-bottom: 1rem;
+}
+
+/* Custom button styles */
+.primary-button {
+    background: linear-gradient(90deg, #2196F3, #673AB7);
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.primary-button:hover {
+    opacity: 0.9;
+}
+
+/* Tab styling */
+.tabs {
+    background: linear-gradient(135deg, #f6f8fc 0%, #ffffff 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+/* Section headers */
+.section-header {
+    font-size: 1.2em;
+    color: #1a73e8;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e8f0fe;
+}
+
+/* Group containers */
+.group-container {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+}
+
+/* Input fields */
+.input-field {
+    background: #f8fafd;
+    border: 1px solid #e0e6ed;
+    border-radius: 8px;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.1);
+}
+
+/* Buttons */
+.primary-button {
+    background: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(26, 115, 232, 0.2);
+}
+
+.stop-button {
+    background: linear-gradient(135deg, #dc3545 0%, #ff4757 100%);
+    color: white;
+}
+
+/* Tab panels */
+.tab-panel {
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
+/* Results section */
+.results-container {
+    background: #f8fafd;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+/* Recording gallery */
+.recordings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+/* Configuration section */
+.config-section {
+    background: #ffffff;
+    border: 1px solid #e0e6ed;
+    border-radius: 12px;
+    padding: 24px;
+}

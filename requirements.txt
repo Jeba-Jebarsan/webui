@@ -1,5 +1,6 @@
-browser-use==0.1.29
+gradio>=5.10.0
+browser-use==0.1.29  # Ensure this is a correct package or remove it if unnecessary
 pyperclip==1.9.0
-gradio==5.10.0
-json-repair
 langchain-mistralai==0.2.4
+# Uncomment and fix the `json-repair` line if it's a valid package
+# json-repair==<version>
